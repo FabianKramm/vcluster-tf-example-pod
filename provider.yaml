@@ -1,4 +1,3 @@
-# k apply -f test/terraform-provider/provider.yaml
 apiVersion: management.loft.sh/v1
 kind: NodeProvider
 metadata:
