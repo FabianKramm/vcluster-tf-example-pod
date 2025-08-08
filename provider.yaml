@@ -32,8 +32,8 @@ spec:
         
           # Provider expects base64 for `data`
           data = {
-            "user-data" = base64encode(var.vcluster.userData)
-            "meta-data" = base64encode("{}")
+            "user-data" = var.vcluster.userData
+            "meta-data" = "{}"
           }
         }
         
